@@ -35,8 +35,9 @@
  *        As long as it forms a total ordering, and the cost of a path strictly increases as more nodes are appended, 
  *         and the increase is associative, Dijkstra should work just fine.
  *        And this is generally why the file gives so much freedom in what the weights even are.
+ *        But in this file, we will use the distance analogy.
  *     - isBetterThan() should return true if weight1 is more favorable than weight2.
- *   - void (*free_data_and_weight)(Data_and_weight data_and_weight)
+ *   - void (*free_data_and_weight)(void *data, void *weight)
  *     - This is a function that only HashInTree_free() needs.
  *       We will not tell you to free a NULL case or anything of the sort.
  *
