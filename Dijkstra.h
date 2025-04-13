@@ -1,5 +1,5 @@
 /**
- * In this file, the user may be referred to as 'you'. 
+ * In this file, the user and their functions may be referred to as 'you'. 
  * The creator of the file, and the functions in the file may be refered to as 'we', 'us', 'our', etc.
  * Hopefully you get it, and if you don't, you will.
  * 
