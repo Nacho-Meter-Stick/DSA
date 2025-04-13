@@ -10,7 +10,7 @@
  *  Then we move the actual nodes to be stored in the hashmap, and every swap operation done by the minheap 
  *   must also change the index member variable of the node struct.
  *  This means when Dijkstra needs the minimum element, the minheap can give it a pointer, 
- *   and Dijkstra can drop that pointer without worry of losing nodes.
+ *   and Dijkstra can drop that pointer without worry of losing nodes because everything is still in the hashmap..
  *  Futhermore, all nodes that end up in the hashmap stay in the hashmap. Note that every node still has a parent-pointer.
  *  The implications of this lazy tactic include that after Dijkstra is finished, the hashmap's nodes will have formed a parent-pointer tree / in-tree,
  *   that completely represents the distance to all nodes along with the paths to all nodes.
